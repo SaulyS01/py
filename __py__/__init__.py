@@ -9,10 +9,8 @@ class Person:
 x = Person("John", "Doe")
 x.printname()
 
-y = 12
-print(y)
-
-
+class Students(Person):
+  pass
 
 
 
