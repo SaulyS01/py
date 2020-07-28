@@ -6,14 +6,16 @@ class Person:
   def printname(self):
     print(self.firstname, self.lastname)
 
-x = Person("John", "Doe")
-x.printname()
-
 class Students(Person):
-  pass
+  def __init__(self, fname, lname, year):
+    super().__init__(lname, fname)
+    self.age = year
 
+  def welcome(self):
+    print(f"Welcome {self.firstname} {self.lastname} to the class of {self.age}")
 
-
+x = Students("Saul", "Ytucayasi", 2003)
+x.welcome()
 
 
 
