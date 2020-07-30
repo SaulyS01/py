@@ -83,7 +83,12 @@ myiter = iter(myclass)
 for x in myiter:
   print(x)
 
-import module
+def greeting(name):
+  print("Hello, " + name)
+
+
+
+
 
 
 
