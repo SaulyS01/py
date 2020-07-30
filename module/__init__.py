@@ -1,3 +1,5 @@
-import name
+def greeting(name):
+  print("Hello, " + name)
 
-name.greeting("Saul")
+person = {"name": "Saul", "age": "17", "contry": "Norday"}
+
