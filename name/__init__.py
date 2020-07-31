@@ -157,6 +157,10 @@ else:
   print("Incorrecto ingrese nuevamente")
 
 import camelcase
+c = camelcase.CamelCase()
+txt = "hello world"
+print(c.hump(txt))
+
 
 
 
